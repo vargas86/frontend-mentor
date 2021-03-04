@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: red;
+  /*background-color: red;*/
   font-family: 'Public Sans', sans-serif;
 }
 
@@ -25,7 +25,39 @@ p {
 }
 
 .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #f3f4f6;
+  padding: 25px;
+}
+
+.navbar .logo {
+  width: 20%;
+}
+
+.navbar .logo img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.navbar .menu {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+}
+
+.navbar .btn-request {
+  width: 20%;
 }
 
 .attribution {

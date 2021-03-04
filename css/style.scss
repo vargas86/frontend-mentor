@@ -15,7 +15,7 @@ $White: hsl(0, 0%, 100%);
 }
 
 body {
-    background-color: red;
+    /*background-color: red;*/
     font-family: 'Public Sans', sans-serif;
 }
 
@@ -40,11 +40,32 @@ p {
 }
 
 .navbar {
+    display: flex;
     background-color:$Light-Grayish-Blue;
-        .logo{}
-        .menu {}
-        .btn-request {}
+    padding: 25px;
+        .logo{
+            width: 20%;
+            img {
+                display: block;
+                margin:0 auto;
+                width: 80%;
+            }
+        }
+
+        .menu {
+            width: 60%;
+            display: flex;
+            ul {
+                display: flex;
+                text-decoration: none;
+            }
+        }
+
+        .btn-request {
+            width: 20%;
+        }
 }
+
 
 
 
