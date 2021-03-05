@@ -21,24 +21,32 @@
     width: 5rem;
     height: 5rem;
     background-repeat: no-repeat;
+    margin-bottom: 7px;
+    display: inline-table;
 }
 .img-SimpleBudgeting{
     background-image: url(../images/icon-budgeting.svg);
     width: 5rem;
     height: 5rem;
     background-repeat: no-repeat;
+    margin-bottom: 7px;
+    display: inline-table;
 }
 .img-FastOnboarding{
     background-image: url(../images/icon-onboarding.svg);
     width: 5rem;
     height: 5rem;
     background-repeat: no-repeat;
+    margin-bottom: 7px;
+    display: inline-table;
 }
 .img-OpenAPI{
     background-image: url(../images/icon-api.svg);
     width: 5rem;
     height: 5rem;
     background-repeat: no-repeat;
+    margin-bottom: 7px;
+    display: inline-table;
 }
 .AllBenefios{
     margin-top: 15px;
@@ -51,7 +59,7 @@
     flex-direction: column;
     padding: 10px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 700px) {
     .section-1{
         padding: 15px;
         display: flex;
@@ -63,7 +71,7 @@
         padding: 15px;
     }
     .section{
-        display: flex;
+        display: block;
         flex-direction: column;
         padding: 0%;
         align-items: center;

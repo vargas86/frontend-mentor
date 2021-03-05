@@ -57,4 +57,10 @@
   border-top-right-radius: 5px;
   height: 200px;
 }
+
+@media screen and (max-width: 700px) {
+  .latest-articles .article {
+    display: block;
+  }
+}
 /*# sourceMappingURL=rodrigo.css.map */
